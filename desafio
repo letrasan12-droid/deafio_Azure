@@ -1,0 +1,38 @@
+cat > validate.sh << 'EOF'
+#!/usr/bin/env bash
+set -e
+must_have=(
+  deploy_mysql_flexible_server.sh
+  mysql_schema.sql
+  mysql_seed.sql
+  data/clientes.csv
+  data/produtos.csv
+  data/vendas.csv
+  power_query_m__clientes.txt
+  power_query_m__produtos.txt
+  power_query_m__vendas.txt
+  power_query_m__modelo_final.txt
+  dax_measures.txt
+  mysql_desafio.pbids
+  azure_resource_graph_queries.kql
+  Guia_Desafio_Azure_PowerBI_Manoel.pdf
+  push_to_github.sh
+  push_to_github.ps1
+  .gitignore
+)
+missing=0
+for f in "${must_have[@]}"; do
+  if [ ! -e "$f" ]; then
+    echo "❌ falta: $f"; missing=1
+  else
+    echo "✅ ok:    $f"
+  fi
+done
+if [ $missing -eq 0 ]; then
+  echo "Tudo certo! Repositório completo ✅"
+else
+  echo "Há itens faltando. Veja a lista acima. ⚠️"; exit 1
+fi
+EOF
+chmod +x validate.sh
+./validate.sh
