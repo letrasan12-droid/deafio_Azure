@@ -1,0 +1,12 @@
+let
+    Vendas = vendas,
+    Clientes = clientes,
+    Produtos = produtos,
+    Vendas_Clientes = Table.NestedJoin(Vendas, {"id_cliente"}, Clientes, {"id_cliente"}, "Clientes", JoinKind.LeftOuter),
+    ExpandeClientes = Table.ExpandTableColumn(Vendas_Clientes, "Clientes", {"nome", "cidade", "estado"}, {"Cliente", "Cidade", "Estado"}),
+    Vendas_Produtos = Table.NestedJoin(ExpandeClientes, {"id_produto"}, Produtos, {"id_produto"}, "Produtos", JoinKind.LeftOuter),
+    ExpandeProdutos = Table.ExpandTableColumn(Vendas_Produtos, "Produtos", {"nome_produto","categoria","preco"}, {"Produto","Categoria","Preco"}),
+    ColunaFaturamento = Table.AddColumn(ExpandeProdutos, "Faturamento", each [quantidade] * [Preco], type number),
+    TiposFinais = Table.TransformColumnTypes(ColunaFaturamento, {{"Faturamento", type number}})
+in
+    TiposFinais

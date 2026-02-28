@@ -1,0 +1,7 @@
+// ====== Parâmetros (em Power BI: Página Inicial > Gerenciar parâmetros) ======
+let
+    Server = "<seu-servidor>.mysql.database.azure.com", // ex: mysql-desafio-123.mysql.database.azure.com
+    Database = "desafio_powerbi"
+in
+    Server
+// OBS: Credenciais em Power BI são gerenciadas fora do M. A autenticação é do tipo "Database".

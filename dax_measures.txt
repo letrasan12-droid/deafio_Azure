@@ -1,0 +1,12 @@
+-- Medidas DAX sugeridas (cole no Power BI Desktop)
+Total Faturamento = SUM('Modelo'[Faturamento])
+
+Total Quantidade = SUM('Modelo'[quantidade])
+
+Ticket Médio = DIVIDE([Total Faturamento], [Total Quantidade])
+
+Faturamento YTD = TOTALYTD([Total Faturamento], 'Modelo'[data_venda])
+
+Faturamento Mês = 
+VAR ym = FORMAT(MAX('Modelo'[data_venda]), "YYYY-MM")
+RETURN CALCULATE([Total Faturamento], FILTER(ALL('Modelo'[data_venda]), FORMAT('Modelo'[data_venda], "YYYY-MM") = ym))

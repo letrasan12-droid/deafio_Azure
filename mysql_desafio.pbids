@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "connections": [
+    {
+      "details": {
+        "protocol": "mysql",
+        "address": {
+          "server": "<seu-servidor>.mysql.database.azure.com",
+          "database": "desafio_powerbi"
+        }
+      },
+      "options": {
+        "createModelRelationship": true
+      },
+      "mode": "Import"
+    }
+  ]
+}

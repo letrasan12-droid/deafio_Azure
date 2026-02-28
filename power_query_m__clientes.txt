@@ -1,0 +1,8 @@
+let
+    Fonte = MySQL.Database("<seu-servidor>.mysql.database.azure.com", "desafio_powerbi", [ReturnSingleDatabase=true]),
+    clientes = Fonte{[Schema="desafio_powerbi",Item="clientes"]}[Data],
+    TipoCorrigido = Table.TransformColumnTypes(clientes,{
+        {"id_cliente", Int64.Type}, {"nome", type text}, {"cidade", type text}, {"estado", type text}
+    })
+in
+    TipoCorrigido

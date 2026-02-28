@@ -1,0 +1,28 @@
+id_produto,nome_produto,categoria,preco
+1,Mouse,Periféricos,1041.57
+2,Teclado,Periféricos,1238.77
+3,Headset,Periféricos,173.6
+4,Webcam,Periféricos,3367.68
+5,Mousepad,Periféricos,2106.07
+6,Microfone USB,Periféricos,2654.79
+7,Hub USB,Periféricos,2910.99
+8,Câmera PTZ,Periféricos,1920.99
+9,"Monitor 24""",Monitores,2256.96
+10,"Monitor 27""",Monitores,2835.32
+11,"Monitor 29""",Monitores,1764.44
+12,"Monitor 34"" UltraWide",Monitores,1145.62
+13,"Notebook 14"" i5",Computadores,982.7
+14,"Notebook 15"" i7",Computadores,1799.65
+15,Desktop Ryzen 5,Computadores,1549.06
+16,Mini PC i3,Computadores,1689.62
+17,SSD 240GB,Armazenamento,416.64
+18,SSD 480GB,Armazenamento,1877.8
+19,SSD 1TB,Armazenamento,1385.91
+20,HD 1TB,Armazenamento,419.95
+21,HD 2TB,Armazenamento,2240.88
+22,Pendrive 64GB,Armazenamento,242.45
+23,Cartão SD 128GB,Armazenamento,1128.86
+24,Roteador AC1200,Redes,2312.37
+25,Switch 8 portas,Redes,614.71
+26,Adaptador Wi-Fi USB,Redes,589.68
+27,Access Point Dual Band,Redes,1016.44

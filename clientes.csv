@@ -1,0 +1,201 @@
+id_cliente,nome,cidade,estado
+1,Daniela Silva,Curitiba,PR
+2,Helena Gomes,Rio de Janeiro,RJ
+3,Daniela Melo,Campinas,SP
+4,Thiago Costa,Guarulhos,SP
+5,Ana Oliveira,Belo Horizonte,MG
+6,Helena Rocha,Brasília,DF
+7,Ana Melo,Belo Horizonte,MG
+8,Sofia Costa,Contagem,MG
+9,Otávio Carvalho,Curitiba,PR
+10,Ana Ferreira,Joinville,SC
+11,Karina Ribeiro,Rio de Janeiro,RJ
+12,Gabriel Pereira,Santo André,SP
+13,Carlos Araújo,Santo André,SP
+14,Lucas Lima,Brasília,DF
+15,Igor Santos,Salvador,BA
+16,Sofia Souza,Florianópolis,SC
+17,Carlos Melo,Londrina,PR
+18,Vitória Lima,Goiânia,GO
+19,Gabriel Oliveira,Guarulhos,SP
+20,Helena Alves,Campinas,SP
+21,Helena Souza,Florianópolis,SC
+22,Igor Barbosa,Canoas,RS
+23,Fernanda Lima,Canoas,RS
+24,Gabriel Ribeiro,Campinas,SP
+25,Vitória Ferreira,Manaus,AM
+26,Helena Ferreira,Salvador,BA
+27,Mariana Ribeiro,Manaus,AM
+28,Helena Pereira,Guarulhos,SP
+29,Helena Santos,Porto Alegre,RS
+30,Mariana Ribeiro,Campinas,SP
+31,Gabriel Carvalho,Porto Alegre,RS
+32,Gabriel Cardoso,Florianópolis,SC
+33,Otávio Rodrigues,Curitiba,PR
+34,Eduardo Gomes,Manaus,AM
+35,Sofia Ribeiro,Goiânia,GO
+36,Nathalia Carvalho,Florianópolis,SC
+37,Lucas Gomes,Rio de Janeiro,RJ
+38,Rafael Cardoso,Campinas,SP
+39,Bruno Souza,Rio de Janeiro,RJ
+40,Fernanda Costa,Brasília,DF
+41,Carlos Araújo,Florianópolis,SC
+42,Vitória Barbosa,Recife,PE
+43,Igor Melo,São Paulo,SP
+44,Daniela Melo,Curitiba,PR
+45,Karina Souza,Londrina,PR
+46,Nathalia Ferreira,Salvador,BA
+47,Ana Ribeiro,Recife,PE
+48,Fernanda Rocha,Santo André,SP
+49,Júlia Rocha,Brasília,DF
+50,Gabriel Rodrigues,Canoas,RS
+51,Fernanda Melo,Recife,PE
+52,Ana Batista,Porto Alegre,RS
+53,Paula Silva,Santo André,SP
+54,Lucas Alves,Contagem,MG
+55,Bruno Gomes,Goiânia,GO
+56,Carlos Oliveira,Fortaleza,CE
+57,Carlos Melo,Rio de Janeiro,RJ
+58,Eduardo Cardoso,Manaus,AM
+59,Fernanda Ribeiro,Recife,PE
+60,Vitória Costa,Belo Horizonte,MG
+61,Sofia Almeida,Londrina,PR
+62,Mariana Lima,Salvador,BA
+63,Rafael Barbosa,Santo André,SP
+64,Helena Gomes,Campinas,SP
+65,Karina Silva,Goiânia,GO
+66,Sofia Gomes,Goiânia,GO
+67,Helena Silva,Campinas,SP
+68,Bruno Gomes,Campinas,SP
+69,Bruno Pereira,Campinas,SP
+70,Rafael Gomes,Curitiba,PR
+71,Paula Almeida,Manaus,AM
+72,Eduardo Carvalho,Goiânia,GO
+73,Paula Gomes,Fortaleza,CE
+74,Nathalia Almeida,Santo André,SP
+75,Daniela Costa,Canoas,RS
+76,Nathalia Costa,Salvador,BA
+77,Bruno Souza,Guarulhos,SP
+78,Mariana Pereira,Santo André,SP
+79,Helena Almeida,Belo Horizonte,MG
+80,Sofia Barbosa,Rio de Janeiro,RJ
+81,Nathalia Ferreira,Curitiba,PR
+82,Otávio Gomes,Campinas,SP
+83,Otávio Melo,Santo André,SP
+84,Bruno Melo,São Paulo,SP
+85,Carlos Gomes,Niterói,RJ
+86,Nathalia Cardoso,Fortaleza,CE
+87,Gabriel Araújo,Guarulhos,SP
+88,Fernanda Araújo,São Paulo,SP
+89,Mariana Ribeiro,Salvador,BA
+90,Júlia Costa,Manaus,AM
+91,Paula Rodrigues,Belo Horizonte,MG
+92,Júlia Almeida,Guarulhos,SP
+93,Thiago Melo,Guarulhos,SP
+94,Karina Santos,Guarulhos,SP
+95,Thiago Cardoso,Recife,PE
+96,Rafael Ferreira,Guarulhos,SP
+97,Rafael Oliveira,Niterói,RJ
+98,Carlos Batista,Campinas,SP
+99,Helena Araújo,Santo André,SP
+100,Thiago Gomes,Goiânia,GO
+101,Vitória Santos,Brasília,DF
+102,Carlos Costa,Goiânia,GO
+103,Thiago Rocha,Porto Alegre,RS
+104,Igor Almeida,Porto Alegre,RS
+105,Helena Ribeiro,Florianópolis,SC
+106,Eduardo Alves,Salvador,BA
+107,Karina Oliveira,São Paulo,SP
+108,Otávio Batista,Goiânia,GO
+109,Daniela Oliveira,Manaus,AM
+110,Gabriel Rocha,Curitiba,PR
+111,Eduardo Lima,Campinas,SP
+112,Helena Lima,Londrina,PR
+113,Fernanda Barbosa,Manaus,AM
+114,Júlia Batista,Recife,PE
+115,Ana Melo,Londrina,PR
+116,Daniela Rodrigues,Curitiba,PR
+117,Daniela Souza,Manaus,AM
+118,Eduardo Ribeiro,Londrina,PR
+119,Vitória Almeida,Porto Alegre,RS
+120,Gabriel Ribeiro,Recife,PE
+121,Paula Ribeiro,Guarulhos,SP
+122,Carlos Costa,Curitiba,PR
+123,Bruno Silva,Porto Alegre,RS
+124,Eduardo Ribeiro,Niterói,RJ
+125,Otávio Melo,Joinville,SC
+126,Sofia Silva,Santo André,SP
+127,Carlos Rodrigues,Manaus,AM
+128,Bruno Lima,Goiânia,GO
+129,Sofia Rodrigues,Joinville,SC
+130,Eduardo Santos,Londrina,PR
+131,Lucas Santos,Canoas,RS
+132,Gabriel Gomes,Santo André,SP
+133,Lucas Melo,Joinville,SC
+134,Vitória Rodrigues,Contagem,MG
+135,Fernanda Ferreira,Joinville,SC
+136,Ana Ferreira,Porto Alegre,RS
+137,Nathalia Gomes,Curitiba,PR
+138,Fernanda Souza,Florianópolis,SC
+139,Bruno Cardoso,Contagem,MG
+140,Gabriel Barbosa,Canoas,RS
+141,Júlia Gomes,Contagem,MG
+142,Ana Almeida,Florianópolis,SC
+143,Karina Ribeiro,Campinas,SP
+144,Igor Lima,Recife,PE
+145,Mariana Melo,Porto Alegre,RS
+146,Ana Souza,Curitiba,PR
+147,Fernanda Carvalho,Curitiba,PR
+148,Bruno Souza,Brasília,DF
+149,Nathalia Lima,Porto Alegre,RS
+150,Nathalia Batista,Recife,PE
+151,Daniela Araújo,Goiânia,GO
+152,Gabriel Ribeiro,Guarulhos,SP
+153,Nathalia Silva,Recife,PE
+154,Sofia Almeida,Canoas,RS
+155,Nathalia Oliveira,Porto Alegre,RS
+156,Vitória Pereira,Santo André,SP
+157,Júlia Rocha,Londrina,PR
+158,Nathalia Pereira,Florianópolis,SC
+159,Júlia Melo,Rio de Janeiro,RJ
+160,Gabriel Costa,Florianópolis,SC
+161,Fernanda Batista,Goiânia,GO
+162,Júlia Araújo,Manaus,AM
+163,Ana Alves,Londrina,PR
+164,Gabriel Costa,Goiânia,GO
+165,Vitória Pereira,Salvador,BA
+166,Otávio Barbosa,Belo Horizonte,MG
+167,Rafael Cardoso,Niterói,RJ
+168,Carlos Alves,Recife,PE
+169,Vitória Pereira,Campinas,SP
+170,Helena Alves,Contagem,MG
+171,Gabriel Rodrigues,São Paulo,SP
+172,Bruno Gomes,Fortaleza,CE
+173,Vitória Oliveira,Salvador,BA
+174,Nathalia Carvalho,Belo Horizonte,MG
+175,Mariana Cardoso,Florianópolis,SC
+176,Helena Rodrigues,São Paulo,SP
+177,Daniela Costa,Contagem,MG
+178,Fernanda Rocha,Salvador,BA
+179,Bruno Melo,Contagem,MG
+180,Daniela Barbosa,Rio de Janeiro,RJ
+181,Otávio Rocha,Manaus,AM
+182,Vitória Pereira,Salvador,BA
+183,Vitória Rocha,Joinville,SC
+184,Sofia Barbosa,Niterói,RJ
+185,Paula Barbosa,Curitiba,PR
+186,Helena Ribeiro,Recife,PE
+187,Paula Gomes,Curitiba,PR
+188,Otávio Oliveira,Londrina,PR
+189,Helena Ribeiro,Porto Alegre,RS
+190,Karina Melo,Campinas,SP
+191,Eduardo Rodrigues,Contagem,MG
+192,Mariana Rodrigues,Belo Horizonte,MG
+193,Carlos Costa,Joinville,SC
+194,Karina Melo,Salvador,BA
+195,Nathalia Santos,Belo Horizonte,MG
+196,Nathalia Araújo,Goiânia,GO
+197,Ana Carvalho,Florianópolis,SC
+198,Paula Silva,Canoas,RS
+199,Júlia Araújo,Joinville,SC
+200,Sofia Melo,Brasília,DF

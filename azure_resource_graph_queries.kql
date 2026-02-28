@@ -1,0 +1,9 @@
+// Lista bancos de dados MySQL (Flexible Server)
+resources
+| where type =~ 'Microsoft.DBforMySQL/flexibleServers/databases'
+| project name, type, id, resourceGroup, subscriptionId
+
+// Lista servidores MySQL (Flexible Server)
+resources
+| where type =~ 'Microsoft.DBforMySQL/flexibleServers'
+| project name, location, resourceGroup, id
